@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<Center>
+		<h1>Login Pages</h1>
+		<form method="post" action="">
+			Enter Name :
+			<input type="text" name="txtName">
+			Enter Password
+			<input type="password" name="txtPass">
+		</form>>
+	</Center>
+</body>
+</html>
