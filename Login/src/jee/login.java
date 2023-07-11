@@ -27,7 +27,8 @@ public class login extends HttpServlet {
 		doGet(request, response);
 		Connection conn;
 		String URL, Username, Password, Qry="INSERT INTO `tbl_user`(`name`, `password`) VALUES ('txtName','txtPass')";
-		Statement stmt=null;
+		response.setContentType("text/html");
+		Statement stmt;
 		PrintWriter out = response.getWriter();
 		URL = "";
 		Username = "root";
