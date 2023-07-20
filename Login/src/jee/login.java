@@ -3,8 +3,9 @@ package jee;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.DriverManager;
+//import java.sql.ResultSet;
+//import java.sql.SQLException;
 import java.sql.Statement;
 
 import javax.servlet.ServletException;
@@ -12,6 +13,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+//import com.mysql.jdbc.Driver;
 
 @WebServlet("/login")
 public class login extends HttpServlet {
@@ -21,28 +24,38 @@ public class login extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
-
+    
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+    
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
 		Connection conn;
-		String URL, Username, Password, Qry="INSERT INTO `tbl_user`(`name`, `password`) VALUES ('txtName','txtPass')";
+		Statement stmt = null;
+		String URL, qry;
 		response.setContentType("text/html");
-		Statement stmt;
 		PrintWriter out = response.getWriter();
-		URL = "";
-		Username = "root";
-		Password = "";
+		URL = "jdbc:mysql://localhost:3306/hjd";
 		try {
-			ResultSet rs = stmt.executeQuery(Qry);
-//			Class.forName("com.mysql.");
-			out.print("<p>Class Loaded</p>");
-//			conn = Driver.manager.getConnection();
-		} catch (SQLException e) {
+			
+			Class.forName("com.mysql.jdbc.Driver");
+			out.println("<p>Class Load");
+			conn = DriverManager.getConnection(URL);
+			out.println("<p>Connection...");
+			stmt = conn.createStatement();
+				
+			String u = request.getParameter("txtName");
+			String p = request.getParameter("txtpass");
+			qry = "INSERT INTO `tbl_user`(`name`, `password`) VALUES ('"+u+"','"+p+"')";
+			
+			stmt.execute(qry);
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		                                                                                                                              
 		}
-		
 	}
-
 }
