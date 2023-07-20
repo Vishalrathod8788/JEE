@@ -13,5 +13,12 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="JDBC/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="JDBC/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="JDBC/hsqldb.jar"/>
+	<classpathentry kind="lib" path="JDBC/jackcess-2.1.3.jar"/>
+	<classpathentry kind="lib" path="JDBC/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry kind="lib" path="JDBC/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="JDBC/ucanaccess-3.0.6.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

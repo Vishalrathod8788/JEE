@@ -13,9 +13,14 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/Demo_Cnn")
 public class Demo_Cnn extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
+		doGet(request, response);
 		Connection cnn;
 		Statement stmt;
 		String Qry, Username="root", Password="";
@@ -25,7 +30,7 @@ public class Demo_Cnn extends HttpServlet {
 		try 
 		{
 			Class.forName("com.mysql.jdbc.Driver");
-			out.print("<p>Class Load...</P>");
+			out.println("<p>Class Load...</p>");
 		} 
 		catch (Exception e)
 		{
