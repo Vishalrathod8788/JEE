@@ -160,3 +160,6 @@
 127.0.0.1 - - [20/Jul/2023:18:47:50 +0530] "GET / HTTP/1.1" 404 951
 0:0:0:0:0:0:0:1 - - [20/Jul/2023:18:47:50 +0530] "GET /Connectivity/connectivity HTTP/1.1" 200 24
 0:0:0:0:0:0:0:1 - - [20/Jul/2023:18:48:02 +0530] "POST /Connectivity/connectivity HTTP/1.1" 200 57
+127.0.0.1 - - [20/Jul/2023:18:48:59 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [20/Jul/2023:18:49:02 +0530] "POST /Connectivity/connectivity HTTP/1.1" 200 99
+0:0:0:0:0:0:0:1 - - [20/Jul/2023:18:53:03 +0530] "POST /Connectivity/connectivity HTTP/1.1" 200 97
