@@ -32,10 +32,8 @@ public class connectivity extends HttpServlet {
 		{
 			Class.forName("com.mysql.jdbc.Driver");
 			out.println("<p>Class Load...</p>");
-			//cnn = DriverManager.getConnection(URL);
 			cnn = DriverManager.getConnection(URL);
 			out.println("<p>Connection Success...</p>");
-			
 		} 
 		catch (Exception e) 
 		{
