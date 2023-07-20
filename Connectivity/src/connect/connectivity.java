@@ -24,24 +24,60 @@ public class connectivity extends HttpServlet {
 		doGet(request, response);
 		Connection cnn;
 		Statement stmt = null;
-		String URL, Username, Password;
+		String URL, Username = "root", Password =  "", qry;
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
-		URL = "jdbc:mysql://localhost:3306/hjd";
+		URL = "jdbc:mysql://localhost:3306/vgr";
 		try 
 		{
 			Class.forName("com.mysql.jdbc.Driver");
 			out.println("<p>Class Load...</p>");
-			//cnn = DriverManager.getConnection(URL);
-			cnn = DriverManager.getConnection(URL);
+			cnn = DriverManager.getConnection(URL, Username, Password);
 			out.println("<p>Connection Success...</p>");
 			
+			stmt = cnn.createStatement();
+			
+			String u = request.getParameter("txtName");
+			String p = request.getParameter("txtPass");
+			
+			qry = "INSERT INTO `tbl_user`(`name`, `password`) VALUES ('"+u+"','"+p+"')";
+			
+			stmt.execute(qry);
+			out.println(u+"<br>");
+			
+			out.println(p+"<br>");
 		} 
 		catch (Exception e) 
 		{
 		
 		}
-		
+//		doGet(request, response);
+//		Connection conn;
+//		Statement stmt = null;
+//		String URL, qry, Username, Password;
+//		Username = "root";
+//		Password = "";
+//		response.setContentType("text/html");
+//		PrintWriter out = response.getWriter();
+//		URL = "jdbc:mysql://localhost:3306/vgr";
+//		try {
+//			
+//			Class.forName("com.mysql.jdbc.Driver");
+//			out.println("<p>Class Load");
+//			conn = DriverManager.getConnection(URL, Username, Password);
+//			out.println("<p>Connection...");
+//			stmt = conn.createStatement();
+//				
+//			String u = request.getParameter("txtName");
+//			String p = request.getParameter("txtPass");
+//			qry = "INSERT INTO `tbl_user`(`name`, `password`) VALUES ('"+u+"','"+p+"')";
+//			
+//			stmt.execute(qry);
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		                                                                                                                              
+//		}
 		
 		
 	}

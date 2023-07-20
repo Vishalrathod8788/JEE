@@ -35,7 +35,9 @@ public class login extends HttpServlet {
 		doGet(request, response);
 		Connection conn;
 		Statement stmt = null;
-		String URL, qry;
+		String URL, qry, Username, Password;
+		Username = "root";
+		Password = "";
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		URL = "jdbc:mysql://localhost:3306/hjd";
@@ -43,12 +45,12 @@ public class login extends HttpServlet {
 			
 			Class.forName("com.mysql.jdbc.Driver");
 			out.println("<p>Class Load");
-			conn = DriverManager.getConnection(URL);
+			conn = DriverManager.getConnection(URL, Username, Password);
 			out.println("<p>Connection...");
 			stmt = conn.createStatement();
 				
 			String u = request.getParameter("txtName");
-			String p = request.getParameter("txtpass");
+			String p = request.getParameter("txtPass");
 			qry = "INSERT INTO `tbl_user`(`name`, `password`) VALUES ('"+u+"','"+p+"')";
 			
 			stmt.execute(qry);
