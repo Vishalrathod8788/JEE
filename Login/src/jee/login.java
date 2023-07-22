@@ -55,9 +55,10 @@ public class login extends HttpServlet {
 			
 			stmt.execute(qry);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
-		                                                                                                                              
+		   
+			
 		}
 	}
 }
