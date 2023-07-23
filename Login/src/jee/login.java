@@ -55,7 +55,6 @@ public class login extends HttpServlet {
 			
 			stmt.execute(qry);
 		} catch (Exception e) {
-
 			e.printStackTrace();
 		}
 	}
