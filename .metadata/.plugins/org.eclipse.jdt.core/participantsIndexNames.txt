@@ -1,0 +1,3 @@
+INDEX VERSION 1.132
+E:\Roman_Rumi\BCA_SEM_5_MATERIAL\Project_Practice_Folder\Project_Practice\Git_Practice\JEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2133761618.index
+\OraDataFetch\src\main\java
