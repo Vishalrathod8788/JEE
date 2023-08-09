@@ -18,12 +18,7 @@ public class Session_Demo extends HttpServlet {
 			
 			String name = request.getParameter("txtName");
 			
-			session.setAttribute("name", name);
-			
-			String Username = session.getAttribute("name").toString();
-			
-			response.getWriter().write("WelCome To " + Username);
+			session.getAttribute("name", name);
 	}
-	
 
 }

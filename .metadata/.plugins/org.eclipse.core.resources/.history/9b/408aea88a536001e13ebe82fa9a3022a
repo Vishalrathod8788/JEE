@@ -22,7 +22,7 @@ public class Session_Demo extends HttpServlet {
 			
 			String Username = session.getAttribute("name").toString();
 			
-			response.getWriter().write("WelCome To " + Username);
+			response.getWriter().write("WelCome To " + Username);;
 	}
 	
 
