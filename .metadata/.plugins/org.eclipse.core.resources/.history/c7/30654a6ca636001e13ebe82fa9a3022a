@@ -19,8 +19,4 @@
   		<servlet-class>\session\Welcome</servlet-class>
   </servlet>
   
-  <servlet-mapping>
-  
-  </servlet-mapping>
-  
 </web-app>

@@ -14,13 +14,5 @@
   		<servlet-name>Login</servlet-name>
   		<servlet-class>\session\Login</servlet-class>
   </servlet>
-  <servlet>
-  		<servlet-name>Welcome</servlet-name>
-  		<servlet-class>\session\Welcome</servlet-class>
-  </servlet>
-  
-  <servlet-mapping>
-  
-  </servlet-mapping>
   
 </web-app>
