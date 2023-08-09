@@ -1,0 +1,54 @@
+package pack;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+/**
+ * Servlet implementation class Session_Servlet
+ */
+@WebServlet("/Session_Servlet")
+public class Session_Servlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
+
+        // Get the current session or create a new one if it doesn't exist
+        HttpSession session = request.getSession(true);
+
+        // Get the current click count from the session
+        Integer clickCount = (Integer) session.getAttribute("clickCount");
+
+        if (clickCount == null) {
+            // If the click count is not set, initialize it to 0
+            clickCount = 0;
+        }
+
+        // Increment the click count by 1
+        clickCount++;
+
+        // Save the updated click count back to the session
+        session.setAttribute("clickCount", clickCount);
+
+        // Display the click count to the user
+        out.println("<html><body>");
+        out.println("<h2>Click Count: " + clickCount + "</h2>");
+        out.println("<a href=\"Session_Servlet\">Click Me!</a>");
+        out.println("</body></html>");
+	}
+
+}

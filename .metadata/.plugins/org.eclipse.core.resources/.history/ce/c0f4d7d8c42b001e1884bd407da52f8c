@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Click Counter Game</title>
+</head>
+<body>
+	<h1>Click the Button and Watch the Count Go Up!</h1>
+    <a href="ClickCounterServlet">Click Me!</a>
+</body>
+</html>

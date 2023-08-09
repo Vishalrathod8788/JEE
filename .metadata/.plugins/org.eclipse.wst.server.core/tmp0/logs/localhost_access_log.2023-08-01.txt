@@ -1,0 +1,5 @@
+127.0.0.1 - - [01/Aug/2023:21:06:26 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [01/Aug/2023:21:06:27 +0530] "GET /Collaboration_Demo/ HTTP/1.1" 200 366
+0:0:0:0:0:0:0:1 - - [01/Aug/2023:21:06:43 +0530] "GET /Collaboration_Demo/Login_Servlet?txtName=Vishal&txtPass=123456789 HTTP/1.1" 200 45
+0:0:0:0:0:0:0:1 - - [01/Aug/2023:21:06:45 +0530] "GET /Collaboration_Demo/Login_Servlet?txtName=Vishal&txtPass=123456789 HTTP/1.1" 200 45
+0:0:0:0:0:0:0:1 - - [01/Aug/2023:21:06:45 +0530] "GET /Collaboration_Demo/Login_Servlet?txtName=Vishal&txtPass=123456789 HTTP/1.1" 200 45
