@@ -15,6 +15,5 @@ public class Output_Formating {
         System.out.println("Hello");
         System.out.println("================================");
         scanner.close();
-        
     }
 }
