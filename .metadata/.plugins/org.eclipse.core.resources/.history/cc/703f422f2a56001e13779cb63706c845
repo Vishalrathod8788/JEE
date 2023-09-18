@@ -82,7 +82,6 @@ public class stmt_insert extends HttpServlet {
 				break;
 				
 				default:
-					pw.print("");
 					break;
 			}			
 		}
