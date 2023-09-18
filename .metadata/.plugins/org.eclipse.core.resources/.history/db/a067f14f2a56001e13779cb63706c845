@@ -82,7 +82,7 @@ public class stmt_insert extends HttpServlet {
 				break;
 				
 				default:
-					pw.print("Please Select in 1 to 3");
+					pw.print("");
 					break;
 			}			
 		}
