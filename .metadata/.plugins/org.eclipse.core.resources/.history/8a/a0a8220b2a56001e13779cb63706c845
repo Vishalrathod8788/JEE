@@ -78,6 +78,7 @@ public class stmt_insert extends HttpServlet {
 					pstmt.execute();
 					
 					pw.print("Record Delete...");
+					
 				}	
 				break;
 				
