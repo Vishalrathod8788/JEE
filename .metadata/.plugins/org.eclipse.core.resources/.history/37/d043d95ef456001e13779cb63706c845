@@ -51,7 +51,6 @@ public class stmt_insert extends HttpServlet {
 					pw.print("Record inserted...");
 					
 				}	
-				
 				break;
 				
 				case 2:
