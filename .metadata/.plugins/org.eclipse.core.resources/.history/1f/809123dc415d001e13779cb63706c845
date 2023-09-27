@@ -92,4 +92,5 @@ public class stmt_insert extends HttpServlet {
 			System.out.println("Error : " + e);
 		}
 	}
+
 }
