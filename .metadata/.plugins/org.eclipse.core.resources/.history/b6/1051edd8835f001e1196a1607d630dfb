@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="Insert_demo" method="post">
+		Enter Name :
+		<input type="text" name="txtName" requeired />
+		Enter Gender :
+		<input type="text" name="txtGender" requeired />
+		Enter Birthdate :
+		<input type="text" name="txtBdate" requeired />
+		Enter Address :
+		<input type="text" name="txtAdd" requeired />
+		Enter City :
+		<input type="text" name="txtAdd" requeired />
+	</form>
+</body>
+</html>
