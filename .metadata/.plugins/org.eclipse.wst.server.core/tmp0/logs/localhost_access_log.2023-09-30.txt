@@ -89,3 +89,8 @@
 0:0:0:0:0:0:0:1 - - [30/Sep/2023:20:27:54 +0530] "GET /Connectivity_demo/Update_demo?txtName=VGR&txtPass=234 HTTP/1.1" 200 51
 0:0:0:0:0:0:0:1 - - [30/Sep/2023:20:28:41 +0530] "GET /Connectivity_demo/Update_demo?txtName=VGr&txtPass=11 HTTP/1.1" 200 51
 0:0:0:0:0:0:0:1 - - [30/Sep/2023:20:28:50 +0530] "GET /Connectivity_demo/Update_demo?txtName=VGR&txtPass=vishal HTTP/1.1" 200 51
+127.0.0.1 - - [30/Sep/2023:20:37:57 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [30/Sep/2023:20:37:57 +0530] "GET /Connectivity_demo/Delete.html HTTP/1.1" 200 278
+0:0:0:0:0:0:0:1 - - [30/Sep/2023:20:38:17 +0530] "GET /Connectivity_demo/Delete.html?txtName=vishal HTTP/1.1" 200 289
+0:0:0:0:0:0:0:1 - - [30/Sep/2023:20:38:21 +0530] "GET /Connectivity_demo/Delete_demo?txtName= HTTP/1.1" 200 53
+0:0:0:0:0:0:0:1 - - [30/Sep/2023:20:38:38 +0530] "GET /Connectivity_demo/Delete_demo?txtName=VGR HTTP/1.1" 200 53
