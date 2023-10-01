@@ -31,17 +31,18 @@ public class Insert_demo extends HttpServlet {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			pw.print("Class Loaded...");
-			Connection cnn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "root", "");
+			Connection cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo" , "root", "");
 			pw.print("Connection Done...");
 			
 			Qry = "insert into tbl_login (name, password) values(?, ?) ";
 			
-			PreparedStatement pstmt =  (PreparedStatement) cnn.prepareStatement(Qry);
+			PreparedStatement pstmt = (PreparedStatement) cn.prepareStatement(Qry);
 			pstmt.setString(1, name);
 			pstmt.setString(2,  password);
 			
 			pstmt.execute();
 			pw.print("Recored inserted...");
+			
 		} catch (Exception e) {
 			System.out.println(e);
 		}

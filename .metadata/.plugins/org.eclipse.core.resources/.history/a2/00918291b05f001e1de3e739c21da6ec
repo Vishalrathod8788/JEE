@@ -24,33 +24,18 @@ public class Insert_demo extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter pw = response.getWriter();
 		String Qry;
-		PreparedStatement pstmt = null;
-		String  URL, Username, Password;
-		URL = "jdbc:mysql://localhost:3306/demo";
-		Username = "root";
-		Password = "";
 		
 		String name = request.getParameter("txtName");
-		String gender = request.getParameter("txtGender");
-		String bdate = request.getParameter("txtBdate");
-		String add = request.getParameter("txtAdd");
-		String city = request.getParameter("txtCity");
+		String password = request.getParameter("txtPass");
+		
 		try {
-			Connection cn = null;
 			Class.forName("com.mysql.jdbc.Driver");
-			pw.write("Class Loaded...");
-			DriverManager.getConnection(URL, Username, Password);
-			pw.write("Connection Success...");
-			Qry = "Insert into tbl_demo (?, ?, ?, ?, ?) values (?, ?, ?, ?, ?)";
+			pw.print("Class Loaded...");
+			Connection cnn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "root", "");
 			
-			pstmt = (PreparedStatement) cn.prepareStatement(Qry);
-			pstmt.setString(1, name); 
-			pstmt.setString(2, gender);
-			pstmt.setString(3, bdate); 
-			pstmt.setString(4, add);
-			pstmt.setString(5, city); 
+			
 		} catch (Exception e) {
-			// TODO: handle exception
+			System.out.println(e);
 		}
 	}
 

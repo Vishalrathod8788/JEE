@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.mysql.jdbc.PreparedStatement;
-import com.oracle.webservices.internal.api.EnvelopeStyle.Style;
 
 @WebServlet("/Update_demo")
 public class Update_demo extends HttpServlet {
