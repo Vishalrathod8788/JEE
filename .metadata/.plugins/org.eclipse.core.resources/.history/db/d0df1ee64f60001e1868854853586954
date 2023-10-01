@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>
+	Enter:-<br>
+	1 - Insert<br>
+	2 - Update<br>
+	3 - Delete<br>
+	4 - Search<br>
+	5 - Show All<br>
+	</h3>
+	<form action="" method="get">
+	
+	</form>
+</body>
+</html>
