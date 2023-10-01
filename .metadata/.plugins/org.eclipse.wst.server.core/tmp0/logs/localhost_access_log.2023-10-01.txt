@@ -1,0 +1,17 @@
+127.0.0.1 - - [01/Oct/2023:17:36:27 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [01/Oct/2023:17:36:28 +0530] "GET /stmt_Connectivity/index.html HTTP/1.1" 200 804
+127.0.0.1 - - [01/Oct/2023:22:43:41 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [01/Oct/2023:22:43:41 +0530] "GET /stmt_Connectivity/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Oct/2023:22:43:58 +0530] "GET /stmt_Connectivity/index.html?txtID=abc&txtName=vishal&txtCity=jam&choice=1 HTTP/1.1" 200 804
+0:0:0:0:0:0:0:1 - - [01/Oct/2023:22:44:01 +0530] "GET /stmt_Connectivity/index.html?txtID=&txtName=&txtCity=&choice= HTTP/1.1" 200 804
+0:0:0:0:0:0:0:1 - - [01/Oct/2023:22:44:03 +0530] "GET /stmt_Connectivity/index.html?txtID=&txtName=&txtCity=&choice= HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Oct/2023:22:44:03 +0530] "GET /stmt_Connectivity/index.html?txtID=&txtName=&txtCity=&choice= HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Oct/2023:22:44:03 +0530] "GET /stmt_Connectivity/index.html?txtID=&txtName=&txtCity=&choice= HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Oct/2023:22:44:04 +0530] "GET /stmt_Connectivity/index.html?txtID=&txtName=&txtCity=&choice= HTTP/1.1" 304 -
+127.0.0.1 - - [01/Oct/2023:22:49:35 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [01/Oct/2023:22:49:36 +0530] "GET /stmt_Connectivity/stmt_insert HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [01/Oct/2023:22:50:05 +0530] "GET /stmt_Connectivity/stmt_insert HTTP/1.1" 200 15
+127.0.0.1 - - [01/Oct/2023:22:57:50 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [01/Oct/2023:22:57:55 +0530] "GET /stmt_Connectivity/stmt_insert HTTP/1.1" 200 15
+127.0.0.1 - - [01/Oct/2023:22:59:50 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [01/Oct/2023:22:59:51 +0530] "GET /stmt_Connectivity/stmt_insert HTTP/1.1" 200 28
