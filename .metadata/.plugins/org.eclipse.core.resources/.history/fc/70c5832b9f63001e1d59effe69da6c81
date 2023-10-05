@@ -15,10 +15,10 @@
 		    // Initialization code here
 		}
 	 
-	 	/*protected void service()
+	 	protected void service()
 	 	{
 		    // Request handling code here
-		}*/
+		}
 	 	
 	 	public void destroy() {
 	 	    // Cleanup code here
