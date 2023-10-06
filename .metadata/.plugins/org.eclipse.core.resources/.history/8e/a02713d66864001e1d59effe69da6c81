@@ -20,10 +20,9 @@
 		    // Request handling code here
 		}*/
 	 	
-	 	
-	 	//public void destroy() {
+	 	/*public void destroy() {
 	 	    // Cleanup code here
-	 	//}
+	 	}*/
 	 %>
 </body>
 </html>
