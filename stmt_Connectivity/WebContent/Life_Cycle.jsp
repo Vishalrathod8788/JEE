@@ -11,9 +11,7 @@
 	 <h1>Hello, JSP!</h1>
 	 
 	 <%
-	 	/*public void init(){
-		    // Initialization code here
-		}*/
+	 	
 	 
 	 	/*protected void service()
 	 	{
