@@ -13,10 +13,7 @@
 	 <%
 	 	
 	 
-	 	/*protected void service()
-	 	{
-		    // Request handling code here
-		}*/
+	 	
 	 	
 	 	
 	 	//public void destroy() {
