@@ -16,9 +16,7 @@
 	 	
 	 	
 	 	
-	 	//public void destroy() {
-	 	    // Cleanup code here
-	 	//}
+	 	
 	 %>
 </body>
 </html>
