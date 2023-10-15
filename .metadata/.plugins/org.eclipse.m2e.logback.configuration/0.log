@@ -939,3 +939,9 @@ Caused by: java.net.UnknownHostException: download.eclipse.org
 2023-10-17 12:15:29,663 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\main\resources
 2023-10-17 12:15:29,663 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-10-17 12:15:29,664 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\test\resources
+2023-10-17 12:24:20,626 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-17 12:24:20,626 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\main\resources
+2023-10-17 12:24:20,628 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-17 12:24:20,628 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\test\resources
+2023-10-17 12:26:38,558 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-17 12:26:38,558 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\main\resources
