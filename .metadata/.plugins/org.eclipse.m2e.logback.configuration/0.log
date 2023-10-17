@@ -951,3 +951,29 @@ Caused by: java.net.UnknownHostException: download.eclipse.org
 2023-10-16 12:27:24,311 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\main\resources
 2023-10-16 12:27:24,312 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-10-16 12:27:24,312 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\test\resources
+2023-10-17 12:29:16,240 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-17 12:29:16,240 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\main\resources
+2023-10-17 12:29:16,241 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-17 12:29:16,241 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\test\resources
+2023-10-17 12:29:29,721 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-17 12:29:29,721 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\main\resources
+2023-10-17 12:29:29,722 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-17 12:29:29,722 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\test\resources
+2023-10-17 12:30:14,407 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-17 12:30:14,407 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\main\resources
+2023-10-17 12:30:14,408 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-17 12:30:14,408 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\test\resources
+2023-10-17 12:30:21,910 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-17 12:30:21,911 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\main\resources
+2023-10-17 12:30:21,912 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-17 12:30:21,912 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\test\resources
+2023-10-17 12:31:57,028 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-17 12:31:57,029 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\main\resources
+2023-10-17 12:31:57,032 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-17 12:31:57,033 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\test\resources
+2023-10-17 12:33:03,143 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-17 12:33:03,143 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\main\resources
+2023-10-17 12:33:03,145 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-17 12:33:03,145 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\test\resources
+2023-10-17 12:33:36,754 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-17 12:33:36,754 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\JEE\ProjectWithMaven\src\main\resources
