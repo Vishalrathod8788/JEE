@@ -1,0 +1,11 @@
+	.background {
+			background-image: url(e1.jpg);
+		    background-size: cover;
+            background-position: center;
+            height: 600px;
+            text-align:justify;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+		

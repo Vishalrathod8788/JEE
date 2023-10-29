@@ -1,0 +1,12 @@
+	.background {
+			background-image: url(pv.jpeg);
+		    background-size: cover;
+            background-position: center;
+            height: 800px;
+            text-align:justify;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+		
+		

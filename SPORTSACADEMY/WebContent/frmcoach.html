@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="form1.css" rel="stylesheet">
+</head>
+<body>
+
+		<div class="container">
+			
+			<form action="/SPORTSACADEMY/incoach" method="post"> 
+				
+			<label>Coach Name :</label>	
+			<input type="text" name="cn" required>	
+			
+			<label>Date of Birth:</label>
+			<input type="date" name="dob" required>			
+			
+			
+	        
+	        <label>Gender:
+				   <input type="radio"  name="gender" value="male" required>Male
+	     		   <input type="radio"  name="gender" value="female" required>Female
+		   </label>
+		   
+		   <label>Address:</label>
+	       <textarea name="addr"  rows="4" required></textarea>
+				
+      				 	
+			<label>Game :</label>	
+				<select name="gnam">
+						<option>CRICKET</option>
+						<option>BADMINTON</option>
+						<option>TENNIS</option>
+						<option>KABBADI</option>
+						<option>VOLLEYBALL</option>
+				</select>
+			
+			<label>Qualification :</label>
+			<input type="text" name="ql" required>
+			
+			<label>Experience  :</label>
+			<input type="text" name="ex" required>	
+			
+			<label>Achievement :</label>
+			<input type="text" name="ach" required>	
+			
+			<label>contact no :</label>
+			<input type="number" name="cnum" required>	
+			
+			<input type="submit" value="INSERT">
+				
+			</form>
+			
+		</div>
+
+</body>
+</html>

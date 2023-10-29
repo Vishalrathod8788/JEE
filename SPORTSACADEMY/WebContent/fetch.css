@@ -1,0 +1,52 @@
+/* styles.css */
+
+/* Styling for the table */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Styling for links */
+/* styles.css */
+
+/* ... Your existing CSS rules ... */
+
+/* Background colors for anchor tags */
+a {
+    text-decoration: none;
+    color: #007bff;
+    background-color: rgb(113, 0, 56);
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+    color: rgb(113, 0, 56);
+}
+
+/* ... Your existing CSS rules ... */
+
+/* Styling for back and add records links */
+.links-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links-container a {
+    margin: 0 10px;
+}
+
+/* Additional styling can be added as needed */

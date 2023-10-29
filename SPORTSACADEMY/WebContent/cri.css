@@ -1,0 +1,12 @@
+	.background {
+			background-image: url(kohli.jpg);
+		    background-size: cover;
+            background-position: center;
+            height: 700px;
+            text-align:justify;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+		
+		

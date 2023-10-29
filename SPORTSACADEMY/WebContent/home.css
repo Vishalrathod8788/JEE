@@ -1,0 +1,133 @@
+        body
+        {
+			margin: o;
+            padding: 0;
+            background-color:#001233;
+        }
+        h1{
+        	   margin: o;
+         	   padding: 0;
+         		
+        } 
+        p {
+            margin: o;
+            padding: 0;
+            color: #FF595A;
+        }
+        h2{
+        	align : right;
+        	color: #FF595A;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #001233;
+            color: #BFA181;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Style the navigation menu */
+        nav {
+            display: flex;
+            justify-content: left;
+        }
+
+        nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+		.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+/*.nav-links li a {
+    color: #CACOB3;
+    text-decoration: none;
+}*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #001233;
+    padding: 10px;
+}
+
+.dropdown-content li {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+        /* Style the background image */
+        	.background {
+			background-image: url(1.jpg);
+		    background-size: cover;
+            background-position: center;
+            height: 500px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+		
+		
+
+        /* Style the about us section */
+        .about-us {
+            background-color: rgb(255, 255, 255);
+            padding: 40px;
+            
+        }
+        .about-us h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .about-us p {
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        
+         .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+	select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+	
+		
+        /* Style the contact us footer */
+        footer {
+            background-color: #001233;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+}

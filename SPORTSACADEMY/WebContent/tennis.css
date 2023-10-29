@@ -1,0 +1,12 @@
+	.background {
+			background-image: url(tennis.jpg);
+		    background-size: cover;
+            background-position: center;
+            height: 400px;
+            text-align:justify;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+		
+		

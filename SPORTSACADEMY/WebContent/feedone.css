@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the h1 element */
+h1 {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the anchor (link) element */
+a {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    width: 100px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Style the anchor (link) on hover */
+a:hover {
+    background-color: #2980b9;
+}

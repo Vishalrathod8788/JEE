@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
 
-      <Context docBase="Collaboration_Demo" path="/Collaboration_Demo" reloadable="true" source="org.eclipse.jst.jee.server:Collaboration_Demo"/><Context docBase="Session_Demo" path="/Session_Demo" reloadable="true" source="org.eclipse.jst.jee.server:Session_Demo"/><Context docBase="Connectivity_demo" path="/Connectivity_demo" reloadable="true" source="org.eclipse.jst.jee.server:Connectivity_demo"/><Context docBase="JSPwithJDBC" path="/JSPwithJDBC" reloadable="true" source="org.eclipse.jst.jee.server:JSPwithJDBC"/><Context docBase="stmt_Connectivity" path="/stmt_Connectivity" reloadable="true" source="org.eclipse.jst.jee.server:stmt_Connectivity"/></Host>
+      <Context docBase="Collaboration_Demo" path="/Collaboration_Demo" reloadable="true" source="org.eclipse.jst.jee.server:Collaboration_Demo"/><Context docBase="Session_Demo" path="/Session_Demo" reloadable="true" source="org.eclipse.jst.jee.server:Session_Demo"/><Context docBase="Connectivity_demo" path="/Connectivity_demo" reloadable="true" source="org.eclipse.jst.jee.server:Connectivity_demo"/><Context docBase="JSPwithJDBC" path="/JSPwithJDBC" reloadable="true" source="org.eclipse.jst.jee.server:JSPwithJDBC"/><Context docBase="stmt_Connectivity" path="/stmt_Connectivity" reloadable="true" source="org.eclipse.jst.jee.server:stmt_Connectivity"/><Context docBase="Pet_House" path="/Pet_House" reloadable="true" source="org.eclipse.jst.jee.server:Pet_House"/></Host>
     </Engine>
   </Service>
 </Server>

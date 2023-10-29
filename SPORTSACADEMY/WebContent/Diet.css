@@ -1,0 +1,11 @@
+	.background {
+			background-image: url(Diet.jpg);
+		    background-size: cover;
+            background-position: center;
+            height: 700px;
+            text-align:justify;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+		
